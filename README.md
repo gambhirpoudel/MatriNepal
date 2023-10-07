@@ -1,3 +1,4 @@
+
 # MatriNepal
 
 MatriNepal is a matrimony site developed by Gambhir Poudel for a college project. It features an admin panel, clean UI, messaging to admin, and package ordering functionality.
@@ -11,7 +12,7 @@ MatriNepal is a matrimony site developed by Gambhir Poudel for a college project
 
 ## Features
 
-- **Admin Panel**: Manage site content, and user data, and monitor activities through an easy-to-use admin panel.
+- **Admin Panel**: Manage site content, user data, and monitor activities through an easy-to-use admin panel.
 - **Clean UI**: A user-friendly and aesthetically pleasing interface for a seamless user experience.
 - **Messaging System**: Users can send messages directly to the admin for inquiries or assistance.
 - **Package Ordering**: Users can order matrimonial packages based on their preferences.
@@ -30,23 +31,32 @@ To run MatriNepal locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/MatriNepal.git
    cd MatriNepal
+   ```
 
 5. **Open Project in VS Code:**
-`code .`
-Run the Application:
-Open the project folder in VS Code.
-Navigate to the project root and run the application.
+   ```bash
+   code .
+   ```
+   
+6. **Run the Application:**
+   - Open the project folder in VS Code.
+   - Navigate to the project root and run the application.
 
-6. **Usage**
+## Usage
+
 Provide instructions on how users can use your matrimony site. Include details on how to navigate the UI, create profiles, and utilize the messaging and package ordering features.
 
-7. **Social Links**
+## Social Links
+
 Connect with us on social media:
 
-[Discord](https://discord.gg/UzTuU34MHj)
-[Instagram](https://www.instagram.com/chinimishri_/)
-[Linkedin](https://www.linkedin.com/in/gambhir-poudel-b11127286/)
+- [Discord](https://discord.gg/UzTuU34MHj)
+- [Instagram](https://www.instagram.com/chinimishri_/)
+- [LinkedIn](https://www.linkedin.com/in/gambhir-poudel-b11127286/)
+
 Feel free to reach out to us on these platforms for support, feedback, or any inquiries related to MatriNepal.
 
 Developed with ❤️ by Gambhir Poudel.
+``` 
 
+Make sure to replace `your-username` with your actual GitHub username and verify that the social media links are accurate. Feel free to adjust any other details as needed.
