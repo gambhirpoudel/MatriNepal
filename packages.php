@@ -3,7 +3,6 @@ session_start();
 include './include/db/auth.php';
 include_once './include/php/header.php';
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
