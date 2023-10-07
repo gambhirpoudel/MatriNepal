@@ -30,3 +30,23 @@ To run MatriNepal locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/MatriNepal.git
    cd MatriNepal
+
+5. **Open Project in VS Code:**
+`code .`
+Run the Application:
+Open the project folder in VS Code.
+Navigate to the project root and run the application.
+
+6. **Usage**
+Provide instructions on how users can use your matrimony site. Include details on how to navigate the UI, create profiles, and utilize the messaging and package ordering features.
+
+7. **Social Links**
+Connect with us on social media:
+
+Discord Discord
+Instagram Instagram
+LinkedIn LinkedIn
+Feel free to reach out to us on these platforms for support, feedback, or any inquiries related to MatriNepal.
+
+Developed with ❤️ by Gambhir Poudel.
+
