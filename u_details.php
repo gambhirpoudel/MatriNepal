@@ -42,15 +42,11 @@ if (isset($_GET['id'])) {
 
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>User Details</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-
 <body>
-
-
     <div class="user-details-section">
         <img src="./assets/img/<?php echo $profileImage; ?>" alt="Profile Image">
         <div class="inner-container">
