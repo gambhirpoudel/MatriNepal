@@ -15,7 +15,6 @@ if ($result && $result->num_rows > 0) {
     $dataLeftToInsert = empty($row['contact']) || empty($row['religion']) || empty($row['profession']) || empty($row['address']) || empty($row['image']);
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
