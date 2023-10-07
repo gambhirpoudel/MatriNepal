@@ -6,7 +6,6 @@ include_once './include/php/header.php';
 
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Contact Us</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
