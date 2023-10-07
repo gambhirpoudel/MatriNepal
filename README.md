@@ -57,6 +57,3 @@ Connect with us on social media:
 Feel free to reach out to us on these platforms for support, feedback, or any inquiries related to MatriNepal.
 
 Developed with ❤️ by Gambhir Poudel.
-``` 
-
-Make sure to replace `your-username` with your actual GitHub username and verify that the social media links are accurate. Feel free to adjust any other details as needed.
