@@ -6,7 +6,6 @@ if (!isset($_SESSION['name'])) {
     exit();
 }
 include './include/db/auth.php';
-
 if (isset($_POST['remove_item'])) {
     $item_id = $_POST['remove_item'];
     $user_name = $_SESSION['name'];
