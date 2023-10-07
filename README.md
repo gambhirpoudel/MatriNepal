@@ -50,9 +50,9 @@ Provide instructions on how users can use your matrimony site. Include details o
 
 Connect with us on social media:
 
-- [Discord](https://discord.gg/UzTuU34MHj)
-- [Instagram](https://www.instagram.com/chinimishri_/)
-- [LinkedIn](https://www.linkedin.com/in/gambhir-poudel-b11127286/)
+-**[Discord](https://discord.gg/UzTuU34MHj)**
+-**[Instagram](https://www.instagram.com/chinimishri_/)**
+**[LinkedIn](https://www.linkedin.com/in/gambhir-poudel-b11127286/)**
 
 Feel free to reach out to us on these platforms for support, feedback, or any inquiries related to MatriNepal.
 
