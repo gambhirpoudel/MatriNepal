@@ -1,0 +1,478 @@
+body,
+h1,
+h2,
+ul,
+li,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+.admin-panel {
+    display: flex;
+}
+
+.logo span {
+    color: #e84393;
+    font: normal 5px 'Cookie', cursive;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.logo strong {
+    color: white;
+}
+
+.logo p {
+    margin-top: 15px !important;
+    font-size: 20px !important;
+}
+
+.logo i {
+    color: #e84393;
+}
+
+/* --------------------- Sidebar styles ------------------*/
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    color: #e84393;
+}
+
+/* Content area */
+.admin-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 236px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    overflow-y: auto;
+}
+
+.messages {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.message p {
+    margin: 10px 0;
+}
+
+.message a {
+    color: #e84393;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.message a:hover {
+    color: #d63077;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.delete-button {
+    border-radius: 10px;
+    border: 2px solid #e84393;
+    display: inline-block;
+    margin-left: auto;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 5px;
+}
+
+/* ------------------ Messages End -------------------- */
+
+/* ---------------- User Page ------------------------------ */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table img {
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    object-fit: fill;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #e84393;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #d63077;
+}
+
+.delete-button {
+    border-radius: 10px;
+    border: 2px solid #e84393;
+    display: inline-block;
+    margin-left: auto;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 5px;
+}
+
+/* ------------------- User End ---------------------------------------- */
+
+/* ---------- Edit Page --------------------- */
+/* Base Styles */
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-submit {
+    background-color: #e84393;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-submit:hover {
+    background-color: #d63077;
+}
+
+/* User Image Styles */
+.user-image {
+    max-width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Additional Adjustments */
+.form-input:focus,
+.form-textarea:focus {
+    outline: none;
+    border-color: #e84393;
+    box-shadow: 0 0 8px rgba(232, 67, 147, 0.5);
+}
+
+/* -------------- Edit Page End -------------------------------- */
+
+/* --------- Packages ---------------------- */
+/* Container Styles */
+.packages-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 236px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    overflow-y: auto;
+}
+
+/* Grid Styles */
+.packages-container .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* Package Styles */
+.packages-container .package {
+    margin-top: 30px !important;
+    background-color: #e8439338;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.packages-container .package img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: block;
+    max-width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.packages-container .package h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.packages-container .package p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.packages-container .package button {
+    padding: 8px 16px;
+    background-color: #e84393;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+.packages-container .package button:hover {
+    background-color: #c32c7e;
+}
+
+/* Link Styles */
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.heading h1 {
+    flex-grow: 1;
+    margin: 0;
+    text-align: center;
+}
+
+.upload-button {
+    padding: 8px 16px;
+    background-color: #e84393;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.upload-button:hover {
+    background-color: #c32c7f;
+    color: white;
+}
+
+/* ------------ Packages End ----------------------- */
+
+/* ------------- Upload Packages -------------------- */
+.box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.box label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.box input[type="text"],
+.box input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.box input[type="submit"] {
+    background-color: #e84393;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.box input[type="submit"]:hover {
+    background-color: #d63077;
+}
+
+
+/* Styling for "Choose File" Input */
+.box input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.box input[type="file"]:hover {
+    border-color: #e84393;
+}
+
+.box input[type="file"]::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.box input[type="file"]::before {
+    content: 'Choose File';
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e84393;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.box input[type="file"]::before:hover {
+    background-color: #d63077;
+}
+
+/* -------------- Upload End -------------- */
+
+/* -------------------- Orders Php ----------------------- */
+table.admin-panel-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.admin-panel-table img {
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    object-fit: fill;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+th.admin-panel-th,
+td.admin-panel-td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th.admin-panel-th {
+    background-color: #f2f2f2;
+}
+
+a.admin-panel-link {
+    color: #e84393;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a.admin-panel-link:hover {
+    color: #d63077;
+}
+
+.delete-button.admin-panel-delete-button {
+    border-radius: 10px;
+    border: 2px solid #e84393;
+    display: inline-block;
+    margin-left: auto;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 5px;
+}
