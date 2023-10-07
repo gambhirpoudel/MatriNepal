@@ -12,7 +12,6 @@ $searchTerm = isset($_GET['search']) ? $_GET['search'] : '';
 
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Find Match</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
