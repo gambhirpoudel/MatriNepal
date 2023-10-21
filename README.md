@@ -12,7 +12,7 @@ MatriNepal is a matrimony site developed by Gambhir Poudel for a college project
 
 ## Features
 
-- **Admin Panel**: Manage site content, user data, and monitor activities through an easy-to-use admin panel.
+- **Admin Panel**: Manage site content, and user data, and monitor activities through an easy-to-use admin panel.
 - **Clean UI**: A user-friendly and aesthetically pleasing interface for a seamless user experience.
 - **Messaging System**: Users can send messages directly to the admin for inquiries or assistance.
 - **Package Ordering**: Users can order matrimonial packages based on their preferences.
