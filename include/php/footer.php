@@ -37,7 +37,7 @@
 
         </p>
 
-        <p class="footer-company-name">Copyright © 2021 <strong>Gambhir Poudel</strong> All rights reserved</p>
+        <p class="footer-company-name">Copyright © 2023 <strong>Gambhir Poudel</strong> All rights reserved</p>
     </div>
 
     <div class="footer-center">
@@ -53,7 +53,7 @@
         </div>
         <div>
             <i class="fa fa-envelope"></i>
-            <p><a href="mailto:sagar00001.co@gmail.com">matrinepal@gmail.com</a></p>
+            <p><a href="mailto:matrinepal@gmail.com">matrinepal@gmail.com</a></p>
         </div>
     </div>
     <div class="footer-right">
@@ -66,8 +66,8 @@
             Join us and let love lead the way.
         </p>
         <div class="footer-icons">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
             <a href="#"><i class="fa fa-envelope"></i></a>
         </div>
     </div>
