@@ -30,7 +30,7 @@ To run MatriNepal locally, follow these steps:
 
 4. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/MatriNepal.git
+   git clone https://github.com/ChiniMishri/MatriNepal.git
    cd MatriNepal
    ```
 
