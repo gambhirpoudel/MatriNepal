@@ -51,7 +51,7 @@ Provide instructions on how users can use your matrimony site. Include details o
 
 Connect with us on social media:
 
-- **[Discord](https://discord.gg/UzTuU34MHj)**
+- **[Discord](https://discord.gg/T7qzn5QFyu)**
 - **[Instagram](https://www.instagram.com/chinimishri_/)**
 - **[LinkedIn](https://www.linkedin.com/in/gambhir-poudel-b11127286/)**
 
